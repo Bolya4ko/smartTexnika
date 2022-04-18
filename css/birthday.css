@@ -1,0 +1,56 @@
+.birthday__title {
+  margin-bottom: 30px;
+}
+
+.birthday__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.birthday__content {
+  max-width: 750px;
+  width: 100%;
+}
+
+.birthday__content-text {
+  margin-bottom: 40px;
+  line-height: 1.3;
+}
+
+.birthday__content-subtitle {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.birthday__content-list {
+  margin-left: 20px;
+}
+
+.birthday__content-list li {
+  list-style: inherit;
+  margin-bottom: 10px;
+}
+
+.birthday__img {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .birthday__items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .birthday__img {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=birthday.css.map */
