@@ -1,0 +1,109 @@
+.favorites {
+  margin-bottom: 80px;
+}
+
+.favorites__title {
+  margin-top: 30px;
+}
+
+.favorites__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.favorites__entrance {
+  margin-right: 20px;
+  padding: 30px;
+  border: 1px solid #EAEAF0;
+  border-radius: 8px;
+  max-width: 305px;
+  width: 100%;
+  height: 170px;
+}
+
+.favorites__entrance-subtitle {
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+.favorites__entrance-btn {
+  font-weight: 500;
+  line-height: 1;
+  color: #FFFFFF;
+  max-height: 48px;
+  padding: 16px 26.5px;
+  background: #2A5275;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.favorites__content {
+  width: 100%;
+}
+
+.favorites__content-filters {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.favorites__content-category {
+  width: 240px;
+  padding: 13.5px 20px;
+}
+
+.favorites__content-filter {
+  width: 240px;
+  padding: 13.5px 20px;
+}
+
+.favorites__content-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.bestsellers__item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 25%;
+          flex: 0 1 25%;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1340px) {
+  .favorites__content-items {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 870px) {
+  .favorites__content-filters {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .favorites__content-category {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .favorites__entrance {
+    display: none;
+  }
+}
+/*# sourceMappingURL=favorites copy.css.map */

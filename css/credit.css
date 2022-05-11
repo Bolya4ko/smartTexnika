@@ -1,0 +1,125 @@
+.credit__title {
+  margin-bottom: 30px;
+}
+
+.credit__image {
+  margin-bottom: 30px;
+}
+
+.credit__img {
+  max-width: 100%;
+}
+
+.credit__subtitle {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.credit__text {
+  margin-bottom: 30px;
+  line-height: 1.3;
+}
+
+.credit__text p {
+  margin-bottom: 15px;
+}
+
+.form {
+  margin-bottom: 80px;
+}
+
+.form__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form__contact {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 370px;
+          flex: 0 0 370px;
+  width: 370px;
+  padding: 30px;
+  background: #EDF2F6;
+  border-radius: 8px;
+  margin-right: 57px;
+}
+
+.form__contact-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.form__contact-input {
+  margin-top: 10px;
+  display: block;
+  border: none;
+  width: 100%;
+  height: 48px;
+  margin-bottom: 20px;
+}
+
+.form__contact-btn {
+  background: #2A5275;
+  border-radius: 4px;
+  width: 100%;
+  border: none;
+  font-weight: 500;
+  color: #fff;
+  padding: 15px 20px;
+}
+
+.form__text {
+  max-width: 433px;
+}
+
+.form__text-subtitle {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.form__text-list p {
+  margin-bottom: 20px;
+}
+
+.form__text-list li {
+  margin-left: 20px;
+  list-style: disc;
+}
+
+@media (max-width: 1250px) {
+  .credit__title {
+    margin-bottom: calc(10px + (30 - 10) * ((100vw - 320px) / (1200 - 320)));
+  }
+  .form {
+    margin-bottom: calc(20px + (80 - 20) * ((100vw - 320px) / (1200 - 320)));
+  }
+}
+
+@media (max-width: 750px) {
+  .form__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .form .form__contact {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+    padding: 10px;
+  }
+}
+/*# sourceMappingURL=credit.css.map */

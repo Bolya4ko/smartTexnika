@@ -1,0 +1,418 @@
+body > header > div > div > div > div.header__user > a.header__user-btn {
+  background-color: transparent;
+}
+
+.personal-account__title {
+  margin-bottom: 30px;
+}
+
+.personal-account__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.personal-account__nav {
+  margin-right: 20px;
+  width: 305px;
+  height: 324px;
+  border: 1px solid #EAEAF0;
+  border-radius: 8px;
+}
+
+.personal-account__nav-link {
+  padding: 17.5px 20px;
+  display: block;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+.personal-account__nav-link--active {
+  background-color: #EDF2F6;
+}
+
+.personal-account__nav-btn {
+  border-top: 1px solid #EAEAF0;
+  color: #F15152;
+}
+
+.user-content {
+  margin-bottom: 80px;
+  max-width: 535px;
+}
+
+.user-content__name {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.user-content__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.user-content__img {
+  margin-right: 30px;
+}
+
+.user-content__box-items p span {
+  margin-left: 10px;
+}
+
+.user-content__text {
+  font-weight: 400;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+.user-content__text a {
+  color: #2A5275;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.user-content__btn {
+  color: #FFFFFF;
+  padding: 15.5px 80px;
+  max-height: 48px;
+  background-color: #2A5275;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.personal-data {
+  margin-bottom: 80px;
+}
+
+.personal-data__title {
+  margin-bottom: 30px;
+}
+
+.personal-data__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.personal-data__items {
+  margin: 0 auto;
+}
+
+.personal-data__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.personal-data__item + .personal-data__item {
+  margin-left: 20px;
+}
+
+.personal-data__item {
+  width: 310px;
+}
+
+.personal-data__item select {
+  display: block;
+  width: 100%;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+  border: 1px solid #EAEAF0;
+  margin-top: 8px;
+}
+
+.personal-data__item-label-box input {
+  border: 1px solid #EAEAF0;
+  padding: 13px 20px;
+  margin-top: 8px;
+  margin-bottom: 46px;
+  display: block;
+}
+
+.personal-data__item-input {
+  margin-top: 8px;
+  display: block;
+  width: 100%;
+  border: 1px solid #EAEAF0;
+  border-radius: 5px;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+}
+
+.personal-data__btn {
+  border: none;
+  background-color: transparent;
+  font-weight: 500;
+  padding: 15.5px 20px;
+  color: #fff;
+  width: 100%;
+  background: #2A5275;
+  border-radius: 5px;
+  min-height: 48px;
+  cursor: pointer;
+}
+
+.shopping-history {
+  margin-bottom: 77px;
+  max-width: 975px;
+  width: 100%;
+  padding: 50px;
+  background: #FBFDFF;
+  border: 1px solid #EAEAF0;
+  border-radius: 8px;
+}
+
+.shopping-history__subtitle {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.shopping-history__accardion {
+  list-style: none;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  margin: 0.5rem 0 1rem 0;
+  padding-left: 0;
+  width: 100%;
+}
+
+.shopping-history__accardion-header {
+  background: #FBFDFF;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  min-height: 3rem;
+  line-height: 3rem;
+  position: relative;
+}
+
+.shopping-history__accardion-header::after {
+  content: '';
+  position: absolute;
+  background-image: url("../images/icon/arrow-right.svg");
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 10px;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.shopping-history__accardion-header.active::after {
+  content: '';
+  position: absolute;
+  background-image: url("../images/icon/arrow-right.svg");
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 10px;
+  right: 0;
+  top: 30%;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.shopping-history__accardion-body {
+  display: none;
+  padding: 1rem;
+  border-bottom: 1px solid #777;
+}
+
+.shopping-history .shopping-history__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.shopping-history .shopping-history__box-order span {
+  color: #838688;
+  margin-left: 5px;
+  margin-right: 80px;
+}
+
+.shopping-history .shopping-history__box-select {
+  margin-right: 150px;
+}
+
+.shopping-history .shopping-history__box-active {
+  padding-right: 30px;
+  color: #FBB13C;
+}
+
+.shopping-history .shopping-history__box-completed {
+  padding-right: 30px;
+  color: #22A44E;
+}
+
+.page-password {
+  max-width: 310px;
+  width: 100%;
+  margin-left: 135px;
+  margin-bottom: 80px;
+}
+
+.page-password__label {
+  font-size: 16px;
+  line-height: 1;
+  position: relative;
+}
+
+.page-password__input {
+  margin: 8px 0 30px 0;
+  display: block;
+  width: 100%;
+  max-width: 310px;
+  padding: 12px 15px 12px 49px;
+  line-height: 1.5;
+  color: #0E1821;
+  border: 1px solid #EAEAF0;
+  border-radius: 5px;
+  background: url("../images/icon/lock.svg") 20px 50%;
+  background-repeat: no-repeat;
+}
+
+.page-password__link {
+  position: absolute;
+  right: -295px;
+  top: 43px;
+}
+
+.page-password__btn {
+  background-color: #2A5275;
+  border-radius: 4px;
+  font-weight: 500;
+  line-height: 1;
+  color: #FFFFFF;
+  padding: 16px 30px;
+  width: 100%;
+  min-height: 48px;
+}
+
+@media (max-width: 1115px) {
+  .shopping-history .shopping-history__box {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .shopping-history .shopping-history__box-order span {
+    color: #838688;
+    margin-left: 5px;
+    margin-right: 0;
+  }
+  .shopping-history .shopping-history__box-select {
+    margin-right: 0;
+  }
+  .personal-account__title,
+  .user-content__name {
+    margin-bottom: calc(10px + (30 - 10) * ((100vw - 320px) / (1200 - 320)));
+  }
+  .user-content {
+    margin-bottom: calc(24px + (80 - 20) * ((100vw - 320px) / (1200 - 320)));
+  }
+}
+
+@media (max-width: 900px) {
+  .shopping-history .shopping-history__box-select {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 50%;
+            flex: 0 1 50%;
+  }
+}
+
+@media (max-width: 870px) {
+  .personal-data .personal-account__nav {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .personal-account__nav {
+    display: none;
+  }
+  .shopping-history {
+    padding: 20px 10px;
+  }
+  .page-password {
+    margin: 0 auto;
+  }
+  .personal-account__inner {
+    margin-bottom: 20px;
+  }
+  .personal-data {
+    margin-bottom: calc(25px + (80 - 25) * ((100vw - 320px) / (1200 - 320)));
+  }
+  .personal-data__item input {
+    margin-bottom: calc(20px + (46 - 20) * ((100vw - 320px) / (1200 - 320)));
+  }
+}
+
+@media (max-width: 700px) {
+  .personal-data__form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .personal-data__item {
+    width: 100%;
+    max-width: 100%;
+  }
+  .personal-data__items {
+    margin: 0;
+  }
+  .personal-data__item + .personal-data__item {
+    margin-left: 0;
+  }
+  .shopping-history {
+    margin-bottom: calc(20px + (77 - 20) * ((100vw - 320px) / (1200 - 320)));
+  }
+  .shopping-history .pagination {
+    margin-top: 25px;
+    margin-bottom: calc(24px + (80 - 20) * ((100vw - 320px) / (1200 - 320)));
+  }
+}
+
+@media (max-width: 510px) {
+  .shopping-history .shopping-history__box-select {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
+  }
+}
+
+@media (max-width: 470px) {
+  .user-content__box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+
+@media (max-width: 400px) {
+  .user-content__btn {
+    width: 100%;
+    padding: 15.5px 20px;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=account.css.map */

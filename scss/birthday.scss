@@ -1,35 +1,58 @@
 .birthday {
+  margin-bottom: 80px;
+
   &__title {
     margin-bottom: 30px;
   }
+
   &__items {
     display: flex;
     justify-content: space-between;
   }
+
   &__content {
     max-width: 750px;
     width: 100%;
   }
+
   &__content-text {
     margin-bottom: 40px;
     line-height: 1.3;
   }
+
   &__content-subtitle {
     font-weight: 600;
     font-size: 24px;
     line-height: 1.2;
     margin-bottom: 20px;
   }
+
   &__content-list {
     margin-left: 20px;
+
     li {
       list-style: inherit;
       margin-bottom: 10px;
     }
   }
-  &__images {}
+
   &__img {
     max-width: 100%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .birthday {
+    margin-bottom: calc(20px + (80 - 20) * ((100vw - 320px) / (1200 - 320)));
+
+    &__title {
+      margin-bottom: calc(10px + (30 - 10) * ((100vw - 320px) / (1200 - 320)));
+    }
+
+    &__content-text {
+      margin-bottom: calc(10px + (40 - 10) * ((100vw - 320px) / (1200 - 320)));
+    }
   }
 }
 
@@ -38,6 +61,7 @@
     &__items {
       flex-direction: column;
     }
+
     &__img {
       max-width: 100%;
       width: 100%;

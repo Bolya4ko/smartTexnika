@@ -1,0 +1,230 @@
+.vacancies__title {
+  margin-bottom: 30px;
+}
+
+.vacancies__accar {
+  max-width: 750px;
+  width: 100%;
+  margin-bottom: 140px;
+  margin-right: 10px;
+}
+
+.vacancies-accardion {
+  width: 100%;
+}
+
+.vacancies__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.vacancies-accardion__body-title {
+  margin-top: 20px;
+}
+
+.vacancies-accardion__header {
+  background: #EDF2F6;
+  border-radius: 8px 8px 0px 0px;
+  cursor: pointer;
+  padding: 13.5px 30px;
+  font-weight: 500;
+  line-height: 1.3;
+  border-bottom: 1px solid #C8CACB;
+  position: relative;
+  transition: all 0.2s;
+
+}
+
+.vacancies-accardion__header::after {
+  content: '';
+  position: absolute;
+  background-image: url('../images/icon/arrow-right.svg');
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 10px;
+  transform: rotate(90deg);
+  right: 40px;
+  top: 50%;
+}
+
+.vacancies-accardion__header.active {
+  border-bottom: 1px solid transparent;
+  color: #2A5275;
+}
+
+.vacancies-accardion__header.active::after {
+  content: '';
+  position: absolute;
+  background-image: url('../images/icon/arrow-right.svg');
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 10px;
+  transform: rotate(-90deg);
+}
+
+.vacancies-accardion__body {
+  display: none;
+  padding-left: 30px;
+  border-left: 1px solid #C8CACB;
+  border-right: 1px solid #C8CACB;
+  border-bottom: 1px solid #C8CACB;
+}
+
+.vacancies-accardion__body-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.vacancies-accardion__body-list {
+  li {
+    margin-left: 30px;
+    position: relative;
+    padding-bottom: 20px;
+
+    &:last-child {
+      padding-bottom: 40px;
+    }
+
+    &::before {
+      position: absolute;
+      content: '';
+      width: 8px;
+      height: 8px;
+      background-color: #2A5275;
+      border-radius: 50px;
+      left: -20px;
+      top: 12%;
+    }
+  }
+}
+
+.vacancies {
+  &__contacts {
+    max-width: 370px;
+    width: 100%;
+    padding: 30px;
+    border: 1px solid #EAEAF0;
+    border-radius: 8px;
+  }
+
+  &__contacts-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+
+  &__contacts-label {
+    font-weight: 400;
+    line-height: 1.5;
+    display: block;
+    margin-bottom: 20px;
+
+    input {
+      display: block;
+      padding: 16px 20px;
+      width: 100%;
+      border: 1px solid #EAEAF0;
+      border-radius: 5px;
+
+      &::placeholder {
+        color: #838688;
+      }
+    }
+
+    textarea {
+      border: 1px solid #EAEAF0;
+      border-radius: 5px;
+      display: block;
+      width: 100%;
+      resize: none;
+      height: 114px;
+      padding: 16px 20px;
+      margin-bottom: 20px;
+
+      &::placeholder {
+        color: #838688;
+      }
+    }
+
+    p {
+      font-size: 13px;
+      color: #838688;
+    }
+  }
+
+  &__contacts-btn {
+    background-color: #4878A6;
+    color: #fff;
+    min-height: 48px;
+    border: none;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  &__contacts-labels {
+    padding-left: 20px;
+  }
+
+  &__contacts-check-box {
+    position: absolute;
+    background-image: url('../images/0-btn.png');
+    width: 20px;
+    height: 20px;
+    margin-left: -30px;
+  }
+
+  &__contacts-checkbox {
+    appearance: none;
+
+    &:checked+.vacancies__contacts-check-box {
+      background-image: url('../images/galka_btn.png');
+    }
+  }
+
+  &__contacts-text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+
+  &__contacts-phone {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.2;
+    color: #4878A6;
+  }
+}
+
+@media (max-width: 768px) {
+  .vacancies__inner {
+    flex-direction: column;
+  }
+
+  .vacancies__contacts {
+    column-count: 2;
+    max-width: 100%;
+  }
+
+  .vacancies__accar {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 550px) {
+  .vacancies__contacts {
+    column-count: 1;
+    padding: 15px 10px;
+  }
+
+  .vacancies__accar {
+    margin-bottom: 40px;
+  }
+
+  .vacancies__contacts-phone {
+    font-size: 22px;
+  }
+}

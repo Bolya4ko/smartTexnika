@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEG,AAAD,iBAAQ,CAAC;EACP,aAAa,EAAE,IAAI;CACpB;;AAEA,AAAD,gBAAO,CAAC;EACN,aAAa,EAAE,IAAI;EACnB,SAAS,EAAE,KAAK;EAChB,WAAW,EAAE,GAAG;EAChB,WAAW,EAAE,GAAG;CACjB;;AAEA,AAAD,iBAAQ,CAAC;EACP,WAAW,EAAE,IAAI;EACjB,aAAa,EAAE,IAAI;CAKpB;;AAPA,AAIC,iBAJM,CAIN,EAAE,CAAC;EACD,UAAU,EAAE,IAAI;CACjB",
+    "sources": [
+        "../scss/wholesale.scss"
+    ],
+    "names": [],
+    "file": "wholesale.css"
+}

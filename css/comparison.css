@@ -139,6 +139,9 @@
     max-width: 975px;
     width: 100%;
   }
+  .comparison__title {
+    margin-bottom: calc(24px + (80 - 20) * ((100vw - 320px) / (1200 - 320)));
+  }
 }
 
 @media (max-width: 700px) {

@@ -160,7 +160,8 @@
   display: none;
 }
 
-.filter-price__form input, .filter-price__form select {
+.filter-price__form input,
+.filter-price__form select {
   vertical-align: middle;
   width: 110px;
   height: 48px;
@@ -172,7 +173,8 @@
   color: #838688;
 }
 
-.filter-price__form input:first-child, .filter-price__form select:first-child {
+.filter-price__form input:first-child,
+.filter-price__form select:first-child {
   margin-right: 20px;
 }
 
@@ -270,6 +272,12 @@
   .catalog__content {
     -ms-flex-pack: distribute;
         justify-content: space-around;
+  }
+}
+
+@media (max-width: 1250px) {
+  .catalog__title {
+    margin-bottom: calc(20px + (47 - 20) * ((100vw - 320px) / (1200 - 320)));
   }
 }
 

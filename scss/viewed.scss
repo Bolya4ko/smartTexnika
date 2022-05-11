@@ -2,26 +2,30 @@
   &__title {
     margin-bottom: 30px;
   }
+
   &__nav {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+
     select {
       width: 240px;
       padding: 13.5px 20px;
       margin-bottom: 20px;
     }
   }
+
   &__items {
     display: flex;
     flex-wrap: wrap;
   }
+
   .bestsellers__item {
     flex: 0 1 20%;
     margin-bottom: 20px;
   }
-}  
+}
 
 @media (max-width: 1300px) {
   .products-viewed {
@@ -30,6 +34,7 @@
     }
   }
 }
+
 @media (max-width: 600px) {
   .products-viewed {
     .title {

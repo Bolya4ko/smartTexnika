@@ -6,9 +6,6 @@
 }
 
 .actioms__items {
-  /*     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap; */
   -webkit-column-count: 2;
           column-count: 2;
 }
