@@ -30,7 +30,7 @@
 .contact__slider-small .slick-current:after {
   position: absolute;
   content: '';
-  background-image: url("../images/icon/arrow-right.svg");
+  background-image: url("images/icon/arrow-right.svg");
   background-repeat: no-repeat;
   width: 10px;
   height: 15px;
@@ -54,7 +54,7 @@
 .contact__slider-mail::before {
   content: '';
   position: absolute;
-  background-image: url("../images/icon/mail.svg");
+  background-image: url("images/icon/mail.svg");
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
@@ -72,7 +72,7 @@
 .contact__slider-text::before {
   content: '';
   position: absolute;
-  background-image: url("../images/icon/clock.svg");
+  background-image: url("images/icon/clock.svg");
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
@@ -215,7 +215,7 @@
   margin-left: -35px;
   width: 20px;
   height: 20px;
-  background-image: url("../images/0-btn.png");
+  background-image: url("images/0-btn.png");
 }
 
 .contact-form .contact-form__message-input:checked + .contact-form__message-box {
@@ -226,7 +226,7 @@
 .contact-form .contact-form__message-input:checked + .contact-form__message-box::before {
   position: absolute;
   content: '';
-  background-image: url("../images/galka_btn.png");
+  background-image: url("images/galka_btn.png");
   background-repeat: no-repeat;
   width: 23px;
   height: 23px;

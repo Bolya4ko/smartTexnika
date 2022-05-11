@@ -45,14 +45,14 @@
 }
 
 .comparison__top-sleder .slick-prev {
-  background-image: url("../images/icon/arrow-right.svg");
+  background-image: url("images/icon/arrow-right.svg");
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
   right: 170px;
 }
 
 .comparison__top-sleder .slick-next {
-  background-image: url("../images/icon/arrow-right.svg");
+  background-image: url("images/icon/arrow-right.svg");
 }
 
 .comparison__top-sleder .slick-disabled {
