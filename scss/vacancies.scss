@@ -38,7 +38,7 @@
 .vacancies-accardion__header::after {
   content: '';
   position: absolute;
-  background-image: url('images/icon/arrow-right.svg');
+  background-image: url('../images/icon/arrow-right.svg');
   background-repeat: no-repeat;
   width: 10px;
   height: 10px;
@@ -55,7 +55,7 @@
 .vacancies-accardion__header.active::after {
   content: '';
   position: absolute;
-  background-image: url('images/icon/arrow-right.svg');
+  background-image: url('../images/icon/arrow-right.svg');
   background-repeat: no-repeat;
   width: 10px;
   height: 10px;
@@ -170,7 +170,7 @@
 
   &__contacts-check-box {
     position: absolute;
-    background-image: url('images/0-btn.png');
+    background-image: url('../images/0-btn.png');
     width: 20px;
     height: 20px;
     margin-left: -30px;
@@ -180,7 +180,7 @@
     appearance: none;
 
     &:checked+.vacancies__contacts-check-box {
-      background-image: url('images/galka_btn.png');
+      background-image: url('../images/galka_btn.png');
     }
   }
 

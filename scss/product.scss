@@ -35,14 +35,14 @@
 
   .slick-prev {
     left: -70px;
-    background-image: url('images/icon/arrow-left.svg');
+    background-image: url('../images/icon/arrow-left.svg');
     background-repeat: no-repeat;
     background-position: center;
   }
 
   .slick-next {
     right: -70px;
-    background-image: url('images/icon/arrow-right.svg');
+    background-image: url('../images/icon/arrow-right.svg');
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -172,7 +172,7 @@
   }
 
   .product-content__servises-title--car {
-    background-image: url('images/icon/car.svg');
+    background-image: url('../images/icon/car.svg');
     background-repeat: no-repeat;
     left: 0;
     width: 24px;
@@ -180,7 +180,7 @@
   }
 
   .product-content__servises-title--pay {
-    background-image: url('images/icon/pay.svg');
+    background-image: url('../images/icon/pay.svg');
     background-repeat: no-repeat;
     left: 0;
     width: 24px;

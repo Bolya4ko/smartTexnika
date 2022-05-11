@@ -17,7 +17,7 @@
 
 .accardion-header::after {
   content: '';
-  background-image: url('images/icon/arrow-left.svg');
+  background-image: url('../images/icon/arrow-left.svg');
   background-size: cover;
   width: 8px;
   background-repeat: no-repeat;
@@ -207,7 +207,7 @@
     &:checked+.filter-power__checkbox,
     &:checked+.filter-speed__checkbox {
       background-color: #4878A6;
-      background-image: url('images/icon/galka.svg');
+      background-image: url('../images/icon/galka.svg');
       background-repeat: no-repeat;
       background-size: auto;
       background-position: center;
