@@ -1,39 +1,3 @@
-const openPopUp = document.getElementById('open_pop_up');
-const closePopUp = document.getElementById('close_pop_up');
-const popupOpen = document.getElementById('popup_open');
-const popupLink = document.getElementById('popup_open_link');
-const openActive = document.querySelector('.popup-register');
-const popupEntrens = document.querySelector('.popup-register__link-entrens');
-const closePopUpRegister = document.getElementById('close_pop_up-register');
-
-
-
-openPopUp.addEventListener('click', function (e) {
-  e.preventDefault();
-  popupOpen.classList.add('active');
-})
-
-closePopUp.addEventListener('click', () => {
-  popupOpen.classList.remove('active');
-})
-
-popupLink.addEventListener('click', () => {
-  popupOpen.classList.remove('active');
-  openActive.classList.add('open-active');
-})
-
-popupEntrens.addEventListener('click', () => {
-  openActive.classList.remove('open-active');
-  popupOpen.classList.add('active');
-})
-
-closePopUpRegister.addEventListener('click', () => {
-  openActive.classList.remove('open-active');
-})
-
-
-
-
 
 $(function () {
   $('.menu__item-catalog').on('click', function () {
@@ -359,3 +323,37 @@ function show_hide_password_popup_register(target) {
   return false;
 }
 show_hide_password_popup_register(this);
+
+
+const openPopUp = document.getElementById('open_pop_up');
+const closePopUp = document.getElementById('close_pop_up');
+const popupOpen = document.getElementById('popup_open');
+const popupLink = document.getElementById('popup_open_link');
+const openActive = document.querySelector('.popup-register');
+const popupEntrens = document.querySelector('.popup-register__link-entrens');
+const closePopUpRegister = document.getElementById('close_pop_up-register');
+
+
+
+openPopUp.addEventListener('click', function (e) {
+  e.preventDefault();
+  popupOpen.classList.add('popup--active');
+})
+
+closePopUp.addEventListener('click', () => {
+  popupOpen.classList.remove('popup--active');
+})
+
+popupLink.addEventListener('click', () => {
+  popupOpen.classList.remove('popup--active');
+  openActive.classList.add('open-active');
+})
+
+popupEntrens.addEventListener('click', () => {
+  openActive.classList.remove('open-active');
+  popupOpen.classList.add('popup--active');
+})
+
+closePopUpRegister.addEventListener('click', () => {
+  openActive.classList.remove('open-active');
+})
